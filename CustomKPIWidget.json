@@ -1,0 +1,293 @@
+{
+  "name": "BetterKPI",
+  "description": "",
+  "author": "",
+  "library": "Widgets",
+  "meta": {
+    "type": "kpi"
+  },
+  "properties": {
+    "measures": {
+      "min": 2,
+      "max": 2
+    },
+    "sections": [
+      {
+        "type": "header",
+        "order": 1,
+        "parent": "qw-pe-dropzone1-1",
+        "ref": "header2",
+        "label": "Color"
+      },
+      {
+        "type": "header",
+        "order": 1,
+        "parent": "qw-pe-dropzone1-1",
+        "ref": "header3",
+        "label": "Size"
+      }
+    ],
+    "settings": [
+      {
+        "component": "dropdown",
+        "type": "string",
+        "defaultValue": "#FFFFFF",
+        "options": [
+          {
+            "label": "White",
+            "value": "#FFFFFF"
+          },
+          {
+            "label": "Light Grey",
+            "value": "#999999"
+          },
+          {
+            "label": "Light Blue",
+            "value": "#357EC7"
+          },
+          {
+            "label": "Light Green",
+            "value": "#66CC33"
+          },
+          {
+            "label": "Grey",
+            "value": "#555555"
+          },
+          {
+            "label": "Blue",
+            "value": "#336699"
+          },
+          {
+            "label": "Green",
+            "value": "#00843D"
+          },
+          {
+            "label": "Dark Grey",
+            "value": "#222222"
+          },
+          {
+            "label": "Dark Blue",
+            "value": "#2D2184"
+          },
+          {
+            "label": "Turquoise",
+            "value": "#009966"
+          },
+          {
+            "label": "Black",
+            "value": "#000000"
+          }
+        ],
+        "order": 1,
+        "parent": "header2",
+        "ref": "cardcolor",
+        "label": "Card Color"
+      },
+      {
+        "component": "dropdown",
+        "type": "string",
+        "defaultValue": "#FFFFFF",
+        "options": [
+          {
+            "label": "White",
+            "value": "#FFFFFF"
+          },
+          {
+            "label": "Light Grey",
+            "value": "#999999"
+          },
+          {
+            "label": "Light Blue",
+            "value": "#357EC7"
+          },
+          {
+            "label": "Light Green",
+            "value": "#66CC33"
+          },
+          {
+            "label": "Grey",
+            "value": "#555555"
+          },
+          {
+            "label": "Blue",
+            "value": "#336699"
+          },
+          {
+            "label": "Green",
+            "value": "#00843D"
+          },
+          {
+            "label": "Dark Grey",
+            "value": "#222222"
+          },
+          {
+            "label": "Dark Blue",
+            "value": "#2D2184"
+          },
+          {
+            "label": "Turquoise",
+            "value": "#009966"
+          },
+          {
+            "label": "Black",
+            "value": "#000000"
+          }
+        ],
+        "order": 2,
+        "parent": "header2",
+        "ref": "labelcolor",
+        "label": "Label Color"
+      },
+      {
+        "component": "dropdown",
+        "type": "string",
+        "defaultValue": "#FFFFFF",
+        "options": [
+          {
+            "label": "White",
+            "value": "#FFFFFF"
+          },
+          {
+            "label": "Light Grey",
+            "value": "#999999"
+          },
+          {
+            "label": "Light Blue",
+            "value": "#357EC7"
+          },
+          {
+            "label": "Light Green",
+            "value": "#66CC33"
+          },
+          {
+            "label": "Grey",
+            "value": "#555555"
+          },
+          {
+            "label": "Blue",
+            "value": "#336699"
+          },
+          {
+            "label": "Green",
+            "value": "#00843D"
+          },
+          {
+            "label": "Dark Grey",
+            "value": "#222222"
+          },
+          {
+            "label": "Dark Blue",
+            "value": "#2D2184"
+          },
+          {
+            "label": "Turquoise",
+            "value": "#009966"
+          },
+          {
+            "label": "Black",
+            "value": "#000000"
+          }
+        ],
+        "order": 3,
+        "parent": "header2",
+        "ref": "color",
+        "label": "Color"
+      },
+      {
+        "component": "dropdown",
+        "type": "string",
+        "defaultValue": "#FFFFFF",
+        "options": [
+          {
+            "label": "White",
+            "value": "#FFFFFF"
+          },
+          {
+            "label": "Light Grey",
+            "value": "#999999"
+          },
+          {
+            "label": "Light Blue",
+            "value": "#357EC7"
+          },
+          {
+            "label": "Light Green",
+            "value": "#66CC33"
+          },
+          {
+            "label": "Grey",
+            "value": "#555555"
+          },
+          {
+            "label": "Blue",
+            "value": "#336699"
+          },
+          {
+            "label": "Green",
+            "value": "#00843D"
+          },
+          {
+            "label": "Dark Grey",
+            "value": "#222222"
+          },
+          {
+            "label": "Dark Blue",
+            "value": "#2D2184"
+          },
+          {
+            "label": "Turquoise",
+            "value": "#009966"
+          },
+          {
+            "label": "Darkest Grey",
+            "value": "#111111"
+          },
+          {
+            "label": "Black",
+            "value": "#000000"
+          }
+        ],
+        "order": 0,
+        "parent": "header2",
+        "ref": "backgroundcolor",
+        "label": "Background Color"
+      },
+      {
+        "component": "dropdown",
+        "type": "string",
+        "defaultValue": "12px",
+        "options": [
+          {
+            "label": "Tiny",
+            "value": "8px"
+          },
+          {
+            "label": "Small",
+            "value": "12px"
+          },
+          {
+            "label": "Medium",
+            "value": "16px"
+          },
+          {
+            "label": "Large",
+            "value": "20px"
+          },
+          {
+            "label": "Huge",
+            "value": "24px"
+          }
+        ],
+        "order": 0,
+        "parent": "header3",
+        "ref": "labelsize",
+        "label": "Label Size"
+      }
+    ],
+    "dimensions": {
+      "max": 0,
+      "min": 0
+    }
+  },
+  "dependencies": {}
+}

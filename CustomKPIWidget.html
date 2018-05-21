@@ -1,0 +1,44 @@
+<div class="left-container">
+	<div class="current-measure-container">
+		<div class="current-measure-label">
+			{{data.headers[0].qFallbackTitle}}
+		</div>
+		<div class="current-measure">
+			{{data.rows[0].measures[0].qText}}
+		</div>
+	</div>
+	<div class="target-measure-container">
+		<div class="target-measure-label">
+			{{data.headers[1].qFallbackTitle}}
+		</div>
+		<div class="target-measure">
+			{{data.rows[0].measures[1].qText}}
+		</div>
+	</div>
+</div>
+<div class="right-container">
+	<div class="weekly-graph-container">
+		<div class="weekly-graph-label">
+			<span>Weekly Improvement</span>
+		</div>
+		<div class="weekly-graph-value">
+			<span class="lui-icon lui-icon lui-icon--{{settings.icon}}"></span>
+		</div>
+	</div>
+	<div class="monthly-graph-container">
+		<div class="monthly-graph-label">
+			<span>Monthly Improvement</span>
+		</div>
+		<div class="monthly-graph-value">
+			<span class="lui-icon lui-icon lui-icon--{{settings.icon}}"></span>
+		</div>
+	</div>
+	<div class="yearly-graph-container">
+		<div class="yearly-graph-label">
+			<span>Yearly Improvement</span>
+		</div>
+		<div class="yearly-graph-value">
+			<span class="lui-icon lui-icon lui-icon--{{settings.icon}}"></span>
+		</div>
+	</div>
+</div>

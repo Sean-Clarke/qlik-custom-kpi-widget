@@ -1,0 +1,155 @@
+//-------------------Settings-------------------//
+
+@backgroundcolor: {{settings.backgroundcolor}};
+@cardcolor: {{settings.cardcolor}};
+@labelcolor: {{settings.labelcolor}};
+@color: {{settings.color}};
+
+@labelsize: {{settings.labelsize}};
+
+//----------------------------------------------//
+
+html {
+	margin: 0px;
+	padding: 0px;
+}
+
+.left-container {
+	float: left;
+	width: 60%;
+	height: 100%;
+	background-color: @backgroundcolor;
+}
+
+.current-measure-container {
+	height: 38%;
+	margin: 5%;
+	margin-right: 2.5%;
+	padding: 10%;
+	background-color: @cardcolor;
+}
+
+.current-measure-label {
+	color: @labelcolor;
+	font-size: @labelsize;
+}
+
+.current-measure {
+	font-size: 54px;
+	color: @color;
+}
+
+.target-measure-container {
+	height: 38%;
+	margin: 5%;
+	margin-right: 2.5%;
+	padding: 10%;
+	background-color: @cardcolor;
+}
+
+.target-measure-label {
+	color: @labelcolor;
+	font-size: @labelsize;
+}
+
+.target-measure {
+	font-size: 54px;
+	color: @color;
+}
+
+.right-container {
+	float: left;
+	width: 40%;
+	height: 100%;
+	background-color: @backgroundcolor;
+}
+
+.weekly-graph-container {
+	height: 27%;
+	margin: 7.5%;
+	margin-left: 3.75%;
+	padding: 5%;
+	background-color: @cardcolor;
+}
+
+.weekly-graph-label {
+	color: @labelcolor;
+}
+
+.weekly-graph-value {
+	color: @color;
+}
+
+.monthly-graph-container {
+	height: 27%;
+	margin: 7.5%;
+	margin-left: 3.75%;
+	padding: 5%;
+	background-color: @cardcolor;
+}
+
+.monthly-graph-label {
+	color: @labelcolor;
+}
+
+.monthly-graph-value {
+	color: @color;
+}
+
+.yearly-graph-container {
+	height: 27%;
+	margin: 7.5%;
+	margin-left: 3.75%;
+	padding: 5%;
+	background-color: @cardcolor;
+}
+
+.yearly-graph-label {
+	color: @labelcolor;
+}
+
+.yearly-graph-value {
+	color: @color;
+}
+
+.current-measure-container[max-width~="240px"] {
+	.current-measure .target-measure {
+		font-size: 40px;
+	}
+}
+
+.current-measure-container[max-height~="200px"] {
+	.current-measure .target-measure {
+		font-size: 40px;
+	}
+}
+
+.current-measure-container[max-width~="160px"] {
+	.current-measure .target-measure {
+		font-size: 32px;
+	}
+}
+
+.current-measure-container[max-height~="140px"] {
+	.current-measure .target-measure {
+		font-size: 32px;
+	}
+}
+
+.current-measure-container[max-width~="100px"] {
+	.current-measure .target-measure {
+		font-size: 20px;
+	}
+}
+
+.current-measure-container[max-height~="80px"] {
+	.current-measure .target-measure {
+		font-size: 20px;
+	}
+}
+
+.current-measure-container[max-height~="40px"] {
+	.current-measure .target-measure {
+		font-size: 12px;
+	}
+}
